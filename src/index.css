@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif, "Allura";
+    font-optical-sizing: auto;
+    font-weight: 100 200 300 400 500 600 700 800 900;
+    font-style: normal;
+  }
+}
