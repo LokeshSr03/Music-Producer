@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Achievements from "./components/Achievements";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
       </div>
       <div id="about">
         <About />
+      </div>
+      <div>
+        <Achievements />
       </div>
       <div id="experience">
         <Experience />
